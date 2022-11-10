@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +34,10 @@
 
 .main-menu li:last-child a {
     background-color: rgb(24, 139, 233);
+}
+
+.main-menu li:last-child a:hover {
+    background-color: rgb(18, 128, 218);
 }
 
 .banner{
@@ -86,7 +87,7 @@
     font-weight: 700;
     font-size: 16px;
     color: #ffff;
-    background-color: #59A1C4;
+    background-color: rgb(24, 139, 233);
     width: 242px;
     height: 50px;
     border: none;
@@ -100,32 +101,223 @@
 }
 
 .video-button:hover{
-    background-color: #5195b8;
-}
-
-.menu-body{
-    border-top: 0.1px solid  #7c7c7c;
+    background-color: rgb(18, 128, 218);
 }
 
 .menu-showblack{
-    font-family: 'Oswald', sans-serif;
-    color: #fff;
-    background-color: rgb(37, 37, 39);
-    height: 150px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: rgb(37, 37, 39);
+    border-top: 0.1px solid  #7c7c7c;
+    color: #fff;
+    height: 100px;
 }
 
-.menu-show{
-    font-family: 'Oswald', sans-serif;
-    background-color: #f7f7f7;
-    height: 300px;
+.menu-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #313131;
+    border-top: 0.2px solid   rgb(37, 37, 39);
+    height: 700px;
+}
+
+
+.card {
+    margin-left: 60px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    width: 300px;
+    padding: 25px;
+    background-color: #3f3f3f;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    position: relative;
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(24, 139, 233);
+    border-right: 20px solid rgb(24, 139, 233);
+}
+
+.card02 {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 25px;
+    background-color: #3f3f3f;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    position: relative;
+}
+
+.card02::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(24, 139, 233);
+    border-right: 20px solid rgb(24, 139, 233);
+}
+
+.card03 {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 25px;
+    background-color: #3f3f3f;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    position: relative;
+}
+
+.card03::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(24, 139, 233);
+    border-right: 20px solid rgb(24, 139, 233);
+}
+
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.icon img {
+    width: 250px;
+}
+
+
+.content {
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, #3f3f3f);
+}
+
+.content h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+}
+
+.content h3::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    background-color: rgb(24, 139, 233);
+    bottom: 1px;
+    border-radius: 100px;
+}
+
+.content p {
+    color: #b7b7b7;
+}
+
+#read_button {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(24, 139, 233);
+    color: #313131;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_button:hover {
+    background-color: transparent;
+    color: rgb(24, 139, 233);;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_button02 {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(24, 139, 233);;
+    color: #313131;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_button02:hover {
+    background-color: transparent;
+    color: rgb(24, 139, 233);;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_button03 {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(24, 139, 233);;
+    color: #313131;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_button03:hover {
+    background-color: transparent;
+    color: rgb(24, 139, 233);;
+    transition: all 0.2s ease-in-out;
+}
+
+.card.active .content {
+    height: auto;
+}
+
+.card.active .content::before {
+    visibility: hidden;
+}
+
+.card02.active .content {
+    height: auto;
+}
+
+.card02.active .content::before {
+    visibility: hidden;
+}
+
+.card03.active .content {
+    height: auto;
+}
+
+.card03.active .content::before {
+    visibility: hidden;
 }
 
 .flogo{
@@ -134,7 +326,7 @@
 }
 
 footer{
-    border-top: 0.4px solid rgb(236, 231, 231);
+    border-top: 0.1px solid  #7c7c7c;
     background-color: rgb(37, 37, 39);
     font-size: 10px;
     color: #ffffff;
@@ -144,3 +336,7 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
