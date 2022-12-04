@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'poppins', sans-serif;
 
 }
 
@@ -51,21 +51,56 @@
     border-top: 0.1px solid  #7c7c7c;
     color: #fff;
     height: 80px;
-    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 40px;
 }
 
 .menu-body{
-    position: relative;
-    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #313131;
     color: #fff;
     border-top: 0.2px solid   #313131;
-    height: 500px;
+    height: 900px;
 }
 
+form {
+    width: 90%;
+    max-width: 600px;
+}
 
+.input-group {
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px
+}
+
+form .title h2{
+    letter-spacing: 6px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+  }
 
 /* Rodapé */
 .flogo{
